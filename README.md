@@ -1,2 +1,2 @@
 # Machine-Learning-Project
-In this repository i include all my machine learning project that i build in google colab notebook.
+In this model try to predict the score on the basis of venue, bat_team,bowl_team,bowler,batsman using neural network model.
