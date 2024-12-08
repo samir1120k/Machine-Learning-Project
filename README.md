@@ -15,16 +15,10 @@ Each project resides in its own branch to keep the repository organized. Below i
 
 ## 📝 Projects List
 
-| Branch Name         | Project Title                                   | Description                            |
-|---------------------|-----------------------------------------------|----------------------------------------|
-| `housing-prices`    | Housing Prices Prediction                     | Predicts housing prices using the Boston dataset. |
-| `isl-to-speech`     | Indian Sign Language to Text and Speech       | Converts Indian Sign Language gestures into text and speech. |
-| `text-recognition`  | Image Text Recognition                        | Extracts text from images using OCR techniques. |
+| Branch Name                 | Project Title                                   | Description                            |
+|-----------------------------|-------------------------------------------------|----------------------------------------|
+| `Wine-Quality-Predicton`    | Wine Quality prediction                         | Predict Wine Quality using Random Forest Model |
+| `Sentiment-Analysis`        | Sentiment Analyzer                              |Analyze the semtiment is positive ot negative |
+| `IPL-Score-Prediction`      | IPL Score Prediction                            | Predict IPL Score using Neural Network |
+| `Email-Spam-detection`      | Email Spam Detecton                             | Detect the mail is spam or not|
 
----
-
-## 🔗 How to Explore Projects
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repository-name.git
