@@ -1,24 +1,41 @@
-# ML/AI Projects Repository
+# IMDB Movie Data Scraper
 
-Welcome to my **Machine Learning and Artificial Intelligence Projects Repository**! 🚀 This repository organizes all my ML/AI projects developed using Google Colab, with each project stored on a separate branch for easy navigation.
+This project is a web scraper that extracts data about movies from IMDB and saves it into a CSV file. 
 
----
+## Description
 
-## 📂 Repository Structure
+This project uses the `requests` and `BeautifulSoup` libraries in Python to scrape movie data from IMDB, including title, director, rating, genre, cast, year, number of votes, and runtime.
 
-Each project resides in its own branch to keep the repository organized. Below is the structure:
+The scraper iterates through a range of IMDB movie IDs, fetches the HTML content of each movie page, parses the HTML using BeautifulSoup, and extracts the desired information.
 
-- **`main` branch**: General information about this repository.
-- **Project-specific branches**: Each project is stored in a dedicated branch. The branch name corresponds to the project's title for quick identification.
+The extracted data is then stored in a Pandas DataFrame and saved to a CSV file named 'imdb_data.csv'.
 
----
+## Requirements
 
-## 📝 Projects List
+* Python 3.6 or higher
+* requests library
+* beautifulsoup4 library
+* pandas library
 
-| Branch Name                 | Project Title                                   | Description                            |
-|-----------------------------|-------------------------------------------------|----------------------------------------|
-| `Wine-Quality-Predicton`    | Wine Quality prediction                         | Predict Wine Quality using Random Forest Model |
-| `Sentiment-Analysis`        | Sentiment Analyzer                              |Analyze the semtiment is positive ot negative |
-| `IPL-Score-Prediction`      | IPL Score Prediction                            | Predict IPL Score using Neural Network |
-| `Email-Spam-detection`      | Email Spam Detecton                             | Detect the mail is spam or not|
+## Installation
+
+1. Clone the repository:
+2. Install the required libraries:
+   
+## Usage
+
+1. Navigate to the project directory:
+2. Run the scraper:
+
+## Output
+
+The scraper will create a CSV file named 'imdb_data.csv' in the project directory. This file will contain the extracted movie data.
+
+## Disclaimer
+
+This project is for educational purposes only. Web scraping should be done responsibly and in accordance with the website's terms of service.
+
+## Contributing
+
+Contributions are welcome! Please feel free to open an issue or submit a pull request.
 
