@@ -36,3 +36,7 @@ Contributions are welcome! Please feel free to open issues or pull requests.
 ## License
 
 This project is licensed under the MIT License.
+
+## 🚀 Live Demo
+Check out the deployed model here: [Deployed Model](https://huggingface.co/spaces/samir1120/Sentiment_Analyzer)
+
